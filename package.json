@@ -1,0 +1,46 @@
+{
+  "name": "mine-dodger",
+  "version": "1.0.0",
+  "description": "Dodge the mines game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack-dev-server --hot --mode development",
+    "build": "npx webpack --mode development",
+    "test": "mocha \"src/**/*.test.js\" --require @babel/register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumbduck/mine-dodger.git"
+  },
+  "author": "Richard Shafer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lumbduck/mine-dodger/issues"
+  },
+  "homepage": "https://github.com/lumbduck/mine-dodger#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "babel-loader": "^8.1.0",
+    "chai": "^4.2.0",
+    "css-loader": "^4.1.0",
+    "mocha": "^8.0.1",
+    "react-hot-loader": "^4.12.21",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^5.1.1"
+  }
+}
